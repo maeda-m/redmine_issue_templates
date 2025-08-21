@@ -8,7 +8,7 @@ SimpleCov.coverage_dir('coverage/redmine_issue_templates_spec')
 SimpleCov.start 'rails'
 
 RSpec.configure do |config|
-  config.fixture_path = "#{::Rails.root}/test/fixtures"
+  # config.fixture_path = "#{::Rails.root}/test/fixtures"
   config.use_transactional_fixtures = false
   config.infer_spec_type_from_file_location!
   config.include FactoryBot::Syntax::Methods
